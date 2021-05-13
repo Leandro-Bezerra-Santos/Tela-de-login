@@ -1,0 +1,84 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border-sizing:border-box;
+}
+body{
+    background-color: #F2F2F2;
+}
+
+/*Centralizando o conteúdo*/
+.content-center{
+    background-color: #fff;
+    width: 100%;
+    max-width:300px;
+    margin:auto;/*Calcula todas as margins e deixa todas dos mesmos tamanho*/
+    padding:20px;
+    border-radius: 20px;
+}
+
+/*Tamanho/Centralizando*/
+.content-center .text-center{
+    text-align: center;
+}
+.content-center img{
+    width: 70%;
+}
+.content-center form {
+    margin:20px;
+}
+
+/*Inputs/Buttons*/
+.content-center input,
+.content-center button{
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+    border: none;
+    outline: none;/*Borda que aparecia quando clicava*/
+}
+.content-center input{
+    border-bottom: #ccc solid 2px;
+    margin-bottom: 10px;
+}
+.content-center input:focus{ /*Quando o foco(Clique) for no input*/
+    border-bottom: #ff6600 solid 2px;
+}
+.content-center button{
+    width: 105%;
+    background-color: #ff6600;
+    color: #FFF;    
+}   
+.content-center button:hover{
+    background-color: #e46318;
+    cursor: pointer;
+}   
+.content-center button:active{/*Botão clicado*/
+    background-color: #af450cbd;
+   
+}   
+
+/*-----------------header-----------*/
+header h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 40px auto;
+}
+header a{
+    color: #666;
+    text-decoration: none;
+}
+header a:visited{/*Quando esse link for visitado*/
+    color: #000;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header a:focus{
+    color: rgb(219, 150, 150);
+}
+
+/*-----------------footer-----------*/
+ footer p{
+     font-size: .9rem;
+     text-align: center;
+ }
